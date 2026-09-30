@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.1"
+  version: "0.2.0"
 
 package:
   name: ancestree
@@ -10,7 +10,7 @@ package:
 source:
   # The PyPI distribution is 'ancestree-popgen'. The import name and this conda package are 'ancestree'.
   url: https://pypi.org/packages/source/a/ancestree-popgen/ancestree_popgen-${{ version }}.tar.gz
-  sha256: f0962fad12b883af6fc178372582bbcb1652e9a2f6268ec26b1963da199cfac1
+  sha256: 8b058caba8f80f7154fde2cfb44a3a4b3fa10be0e722ad820d88bf2dc00f9932
 
 build:
   noarch: python
